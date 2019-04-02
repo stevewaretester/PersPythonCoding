@@ -19,14 +19,11 @@ class TestThingReturns(unittest.TestCase):
     uniqueStrings = 0
     StringsInMoreThanOne = []
     temp = []
-
-    
     
     #Complicated way, multiple tests, does not work.
 
     def setUp(self): #mental note, camel case is important...
         temp = DataReturn.StringAnalyzer([['g', 'gh', 'ghj', 'g'], ['j', 'ju', 'gh', 'gk', 'gn']])
-        print(temp)
         self.processedStrings = temp[2]
         self.uniqueStrings = temp[1]
         self.StringsInMoreThanOne = temp[0]
