@@ -1,6 +1,9 @@
 import os, sys
 import unittest
 
+###Preamble
+#This is a simple solution that'll return the string for comparison
+
 """
 Write a Python function which accepts a single list as a parameter. This list consists of any number of lists (1..n),
 and you can assume each list only contains character strings (e..g. [‘a’, ‘b’, ‘bc’...]). The function should print out the
